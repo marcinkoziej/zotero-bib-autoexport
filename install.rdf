@@ -3,12 +3,20 @@
 		xmlns:em="http://www.mozilla.org/2004/em-rdf#">
 	
 	<Description about="urn:mozilla:install-manifest">
-		<em:id>helloworld@zotero.org</em:id>
-		<em:name>Hello World Plugin for Zotero</em:name>
-		<em:version>1.0.4.SVN</em:version>
-		<em:description>A sample plugin for Zotero</em:description>
-		<em:creator>Center for History and New Media<br/>George Mason University</em:creator>
-		<em:updateURL>https://www.zotero.org/download/plugins.rdf</em:updateURL>
+		<em:id>zoterobibautoexport@koziej.info</em:id>
+		<em:name>Bib Autoexport Plugin for Zotero</em:name>
+		<em:version>0.1</em:version>
+		<em:description>This plugin for Zotero Standalone (i've not tested it on Zotero
+plugin) exports the collection to a collection.bib file in Zotero
+Resources directory (on Mac OS X it's
+/Applications/Zotero.app/Contents/Resources/collection.bib).
+
+The file is exported with every modification, waiting 15 seconds which
+allows you to finish all the edits, if you edit multiple fields of a
+record.
+		</em:description>
+		<em:creator>Marcin Koziej &lt;marcin@koziej.info&gt;</em:creator>
+		<em:updateURL>https://koziej.info/404/plugins.rdf</em:updateURL>
 		<em:type>2</em:type> <!-- type=extension -->
 		
 		<!-- Requires Zotero -->
@@ -18,7 +26,7 @@
 				<em:name>Zotero</em:name>
 				<em:homepageURL>http://www.zotero.org</em:homepageURL>
 				<em:minVersion>2.1</em:minVersion>
-				<em:maxVersion>3.0.*</em:maxVersion>
+				<em:maxVersion>4.0.*</em:maxVersion>
 			</Description>
 		</em:requires>
     
@@ -33,8 +41,8 @@
 		<em:targetApplication>
 			<Description>
 				<em:id>zotero@chnm.gmu.edu</em:id>
-				<em:minVersion>3.0b1</em:minVersion>
-				<em:maxVersion>3.0.*</em:maxVersion>
+				<em:minVersion>2.1</em:minVersion>
+				<em:maxVersion>4.0.*</em:maxVersion>
 			</Description>
 		</em:targetApplication>
 	</Description>

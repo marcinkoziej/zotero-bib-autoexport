@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://zoterobibautoexport/skin/overlay.css" type="text/css"?>
+<!DOCTYPE window SYSTEM "chrome://zoterobibautoexport/locale/hello.dtd">
+
+<overlay id="zoterobibautoexport-overlay"
+	xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<stringbundleset id="stringbundleset">
+		<stringbundle id="zotero-bib-autoexport-strings"
+			src="chrome://zoterobibautoexport/locale/hello.properties"/>
+	</stringbundleset>
+	
+<!-- TODO read about tags below -->
+<!--	<menupopup id="zotero-tb-actions-popup">
+		<menuseparator id="zotero-tb-actions-plugins-separator" hidden="false"/>
+		<menuitem insertbefore="zotero-tb-actions-separator" label="&zoterobibautoexport.name;"
+			oncommand="Zotero.ZoteroBibAutoexport.insertHello()"/>
+	</menupopup>-->
+	
+	<!-- Include the main extension logic -->
+	<script src="chrome://zotero/content/include.js"/>
+	<script src="chrome://zoterobibautoexport/content/include.js"/>
+</overlay>

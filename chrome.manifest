@@ -1,5 +1,5 @@
-content	helloworldzotero				chrome/content/helloworldzotero/
-locale	helloworldzotero	en-US		chrome/locale/en-US/helloworldzotero/
-skin	helloworldzotero	default		chrome/skin/default/helloworldzotero/
+content	zoterobibautoexport				chrome/content/zoterobibautoexport/
+locale	zoterobibautoexport	en-US		chrome/locale/en-US/zoterobibautoexport/
+skin	zoterobibautoexport	default		chrome/skin/default/zoterobibautoexport/
 
-overlay	chrome://zotero/content/zoteroPane.xul	chrome://helloworldzotero/content/overlay.xul
+overlay	chrome://zotero/content/zoteroPane.xul	chrome://zoterobibautoexport/content/overlay.xul
